@@ -22,4 +22,14 @@
         color: #ffffff;
         font-size: 16px;
     }
+    &_mini {
+        width: 131px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        background-color: $main-color_red;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 500;
+    }
 }
