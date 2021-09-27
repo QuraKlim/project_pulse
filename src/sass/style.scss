@@ -1,60 +1,18 @@
 @import 'base/variables';
-
-@import 'blocks/promo';
-
-@import 'blocks/header';
-
-@import 'blocks/button';
-
-@import 'base/media';
-
-@import 'blocks/advantages';
-
-@import 'blocks/consultation';
-
-@import 'blocks/titles';
-
-@import 'blocks/forms';
-
-@import 'blocks/carousel';
-
-@import 'blocks/catalog';
-
-@font-face {
-	font-family: 'MuseoSansCyrl';
-	src: url('../MuseoSansCyrl-300.eot');
-	src: local('MuseoSansCyrl-300'),
-		url('../MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
-		url('../MuseoSansCyrl-300.woff') format('woff'),
-		url('../MuseoSansCyrl-300.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
 }
-
- @font-face {
-	font-family: 'MuseoSansCyrl';
-	src: url('../MuseoSansCyrl-700.eot');
-	src: local('MuseoSansCyrl-700'),
-		url('../MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
-		url('../MuseoSansCyrl-700.woff') format('woff'),
-		url('../MuseoSansCyrl-700.ttf') format('truetype');
-	font-weight: 700;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'MuseoSansCyrl';
-	src: url('../MuseoSansCyrl-500.eot');
-	src: local('MuseoSansCyrl-500'),
-		url('../MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
-		url('../MuseoSansCyrl-500.woff') format('woff'),
-		url('../MuseoSansCyrl-500.ttf') format('truetype');
-	font-weight: 500;
-	font-style: normal;
-}
-
 .container {
-	max-width: 950px;
-	margin: 0 auto;
+    max-width: 950px;
+    margin: 0 auto;
 }
-
+@import 'blocks/promo';
+@import 'blocks/header.scss';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/titles';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/feed';
